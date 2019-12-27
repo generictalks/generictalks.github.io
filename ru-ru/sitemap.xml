@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/ru-ru/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://example.org/pt-br/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://example.org/ru-ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ru-ru/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://example.org/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://example.org/ru-ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ru-ru/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://example.org/pt-br/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://example.org/ru-ru/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ru-ru/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://example.org/pt-br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://example.org/ru-ru/tags/"
+                />
+  </url>
+  
+</urlset>

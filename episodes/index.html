@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Generic Talks">
+    <meta name="description" content="Душевные беседы о программировании и смежных темах. Говорим о коде: высоко- и низкоуровневых вещах, правильном использовании технологий и, конечно, производительности. Любим Go и уважаем другие языки.">
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Выпуски"/>
+<meta name="twitter:description" content="   title: &ldquo;Generic Talks Episode 1&rdquo;
+date: 2019-12-02T17:32:16&#43;00:00 Всем привет и добро пожаловать в 1й выпуск подкаста Generic Talks. С вами Олег и Богдан.
+(Богдан сказал, что это 2й выпуск, потому что 1й мы решили перезаписать)
+ 0:00 - интро 1:32 - будущее языков 6:52 - скрытая сложность 15:00 - о языках (pony, zig) 28:00 - аллокаторы 33:35 - aeron (not a chair) 39:30 - generics 45:30 - try proposal 57:10 - следующий выпуск  "/>
+
+    <meta property="og:title" content="Выпуски" />
+<meta property="og:description" content="   title: &ldquo;Generic Talks Episode 1&rdquo;
+date: 2019-12-02T17:32:16&#43;00:00 Всем привет и добро пожаловать в 1й выпуск подкаста Generic Talks. С вами Олег и Богдан.
+(Богдан сказал, что это 2й выпуск, потому что 1й мы решили перезаписать)
+ 0:00 - интро 1:32 - будущее языков 6:52 - скрытая сложность 15:00 - о языках (pony, zig) 28:00 - аллокаторы 33:35 - aeron (not a chair) 39:30 - generics 45:30 - try proposal 57:10 - следующий выпуск  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/episodes/" />
+<meta property="article:published_time" content="2019-12-27T20:25:48+01:00" />
+<meta property="article:modified_time" content="2019-12-27T20:25:48+01:00" />
+
+
+    
+      <base href="http://example.org/episodes/">
+    
+    <title>
+  Выпуски · Generic Talks Podcast
+</title>
+
+    
+      <link rel="canonical" href="http://example.org/episodes/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://example.org/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="http://example.org/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://example.org/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.58.2" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://example.org/">
+      Generic Talks Podcast
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://example.org/about/">О нас</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://example.org/episodes/">Выпуски</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://example.org/links/">Ссылки</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="mailto:podcast@olegk.dev">Связаться</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Выпуски</h1>
+    </header>
+
+    
+
+<iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/733320718&color=%23ff5500&inverse=false&auto_play=false&show_user=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/733320718&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+
+<hr />
+
+<p>title: &ldquo;Generic Talks Episode 1&rdquo;</p>
+
+<h2 id="date-2019-12-02t17-32-16-00-00">date: 2019-12-02T17:32:16+00:00</h2>
+
+<p>Всем привет и добро пожаловать в 1й выпуск подкаста Generic Talks. С вами Олег и Богдан.</p>
+
+<p>(Богдан сказал, что это 2й выпуск, потому что 1й мы решили перезаписать)</p>
+
+<ul>
+<li>0:00 - интро</li>
+<li>1:32 - будущее языков</li>
+<li>6:52 - скрытая сложность</li>
+<li>15:00 - о языках (pony, zig)</li>
+<li>28:00 - аллокаторы</li>
+<li>33:35 - aeron (not a chair)</li>
+<li>39:30 - generics</li>
+<li>45:30 - try proposal</li>
+<li>57:10 - следующий выпуск</li>
+</ul>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2019
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
