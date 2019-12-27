@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Generic Talks Подкаст</title>
-    <link>https://generictalks.github.io/tags/</link>
+    <link>https://generictalks.com/tags/</link>
     <description>Recent content in Tags on Generic Talks Подкаст</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     
-	<atom:link href="https://generictalks.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://generictalks.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Generic Talks Подкаст</title>
-    <link>https://generictalks.github.io/</link>
+    <link>https://generictalks.com/</link>
     <description>Recent content on Generic Talks Подкаст</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <lastBuildDate>Fri, 27 Dec 2019 20:25:55 +0100</lastBuildDate>
     
-	<atom:link href="https://generictalks.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://generictalks.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ссылки</title>
-      <link>https://generictalks.github.io/links/</link>
+      <link>https://generictalks.com/links/</link>
       <pubDate>Fri, 27 Dec 2019 20:25:55 +0100</pubDate>
       
-      <guid>https://generictalks.github.io/links/</guid>
+      <guid>https://generictalks.com/links/</guid>
       <description>Соцсети где можно нас найти:
  @GenericTalks
  #GenericTalks
@@ -35,10 +35,10 @@
     
     <item>
       <title>Выпуски</title>
-      <link>https://generictalks.github.io/episodes/</link>
+      <link>https://generictalks.com/episodes/</link>
       <pubDate>Fri, 27 Dec 2019 20:25:48 +0100</pubDate>
       
-      <guid>https://generictalks.github.io/episodes/</guid>
+      <guid>https://generictalks.com/episodes/</guid>
       <description>   title: &amp;ldquo;Generic Talks Episode 1&amp;rdquo;
 date: 2019-12-02T17:32:16+00:00 Всем привет и добро пожаловать в 1й выпуск подкаста Generic Talks. С вами Олег и Богдан.
 (Богдан сказал, что это 2й выпуск, потому что 1й мы решили перезаписать)
@@ -47,10 +47,10 @@ date: 2019-12-02T17:32:16+00:00 Всем привет и добро пожало
     
     <item>
       <title>О нас</title>
-      <link>https://generictalks.github.io/about/</link>
+      <link>https://generictalks.com/about/</link>
       <pubDate>Fri, 27 Dec 2019 20:17:24 +0100</pubDate>
       
-      <guid>https://generictalks.github.io/about/</guid>
+      <guid>https://generictalks.com/about/</guid>
       <description>Душевные беседы о программировании с Олегом, Богданом и Искандером.
 Говорим о коде:
  высоко- и низкоуровневых вещах,
