@@ -39,8 +39,8 @@
       <pubDate>Fri, 27 Dec 2019 20:25:48 +0100</pubDate>
       
       <guid>https://generictalks.com/episodes/</guid>
-      <description>Generic Talks 0005 - Defensive и чуть-чуть Offensive  Все верно, 5й выпуск и с вами Богдан и Олег.
- 00:00 - Использование Context не только для request scope 13:00 - Названия переменных с типом error 20:27 - Убираем причину возникновения багов а не только сам баг (+hexagonal architecture) 32:05 - Как помочь пользователям библиотеки обработать ошибки и закрыть все ресурсы 46:54 - Contract-based vs Defensive programming 56:26 - Load balancing at Twitter 1:08:45 - все сливается в Кафку и о следующих выпусках  Generic Talks 0004 - C++ и в гостях Данила Кутенин  Да, еще 1 выпуск с Олегом, Богданом, Искандером.</description>
+      <description>Generic Talks 0006 - Подождём в очереди  С вами Богдан и Олег, вещи упомянутые в выпуске можно найти в нашем Телеграме t.me/generictalks
+00:00 - Начнём с очереди 10:00 - Capacity planing, metrics 23:25 - Когда работать асинхронно, как правильно? Архитектура SEDA 42:28 - Твит Кармака о Python, C++, C# и Java и что уже железо 47:40 - Не С++ единым, Rust no_std 56:28 - И снова вернёмся к очередям 1:02:05 - Классический race condition, о котором не все знают.</description>
     </item>
     
     <item>
