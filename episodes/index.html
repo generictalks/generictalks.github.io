@@ -11,12 +11,12 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Выпуски"/>
-<meta name="twitter:description" content="Generic Talks 0008 - GC на серверах и трудностях разработки с concurrency  На связи Олег и Богдан, ссылки на озвученные вещи в Телеграме @generictalks
- 00:00:00 - IBM прекращает инвестировать в серверный Swift. Почему так получилось? 00:05:41 - GC в Swift, специфика использования и оптимизации. 00:14:00 - Имплементация сетевых драйверов в userspace, сравнение рантаймов языков. 00:18:29 - Продолжаем рассмотрение статей и результатов. Сравнения разных GC в Java. Зачем добавили Epsilon GC в JVM."/>
+<meta name="twitter:description" content="Generic Talks 0009 - Когда сервису хватит насыпать, в гостях Роман Хавроненко  Богдан, Олег и специальный гость Роман Хавроненко из Cloudflare.
+ 00:00:00 - Вводная. Патроны. Гость Роман из Cloudflare. 00:02:21 - С места в карьер. Есть ли замена ClickHouse? Druid, Redshift и ручные поделки. Как работать с большим количеством выборок в ClickHouse. 00:13:55 - Отказоустойчивость. Минутка SRE. Graceful degradation. Планирование и внедрение SLA и SLO. Зачем нужен Error Budget."/>
 
     <meta property="og:title" content="Выпуски" />
-<meta property="og:description" content="Generic Talks 0008 - GC на серверах и трудностях разработки с concurrency  На связи Олег и Богдан, ссылки на озвученные вещи в Телеграме @generictalks
- 00:00:00 - IBM прекращает инвестировать в серверный Swift. Почему так получилось? 00:05:41 - GC в Swift, специфика использования и оптимизации. 00:14:00 - Имплементация сетевых драйверов в userspace, сравнение рантаймов языков. 00:18:29 - Продолжаем рассмотрение статей и результатов. Сравнения разных GC в Java. Зачем добавили Epsilon GC в JVM." />
+<meta property="og:description" content="Generic Talks 0009 - Когда сервису хватит насыпать, в гостях Роман Хавроненко  Богдан, Олег и специальный гость Роман Хавроненко из Cloudflare.
+ 00:00:00 - Вводная. Патроны. Гость Роман из Cloudflare. 00:02:21 - С места в карьер. Есть ли замена ClickHouse? Druid, Redshift и ручные поделки. Как работать с большим количеством выборок в ClickHouse. 00:13:55 - Отказоустойчивость. Минутка SRE. Graceful degradation. Планирование и внедрение SLA и SLO. Зачем нужен Error Budget." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://generictalks.com/episodes/" />
 <meta property="article:published_time" content="2019-12-27T20:25:48+01:00" />
@@ -104,6 +104,27 @@
     </header>
 
     
+
+<h1 id="generic-talks-0009-когда-сервису-хватит-насыпать-в-гостях-роман-хавроненко">Generic Talks 0009 - Когда сервису хватит насыпать, в гостях Роман Хавроненко</h1>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/755150785&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+
+<p>Богдан, Олег и специальный гость Роман Хавроненко из Cloudflare.</p>
+
+<ul>
+<li>00:00:00 - Вводная. Патроны. Гость Роман из Cloudflare.</li>
+<li>00:02:21 - С места в карьер. Есть ли замена ClickHouse? Druid, Redshift и ручные поделки. Как работать с большим количеством выборок в ClickHouse.</li>
+<li>00:13:55 - Отказоустойчивость. Минутка SRE. Graceful degradation. Планирование и внедрение SLA и SLO. Зачем нужен Error Budget. Травим байки.</li>
+<li>00:29:51 - Обузданый хаос. Как заставить своих программистов правильно обрабатывать ошибки и не падать по первому чиху. Поможет ли нам service mesh?</li>
+<li>00:37:25 - Где предел паранойи? Можно ли отхендлить какую угодно ошибку? Когда пора остановится?</li>
+<li>00:46:44 - Пытаемся разобрать конкретный пример и паттерны которые можно использовать.</li>
+<li>00:55:45 - Графиков так много что глаза разбегаются. Автоматический корреляционный анализ. Metrics Driven Development.</li>
+<li>01:07:58 - Adaptive capacity limiting и smart load balancing. Как косвенно или напрямую измерять загруженность сервера и почему мерять CPU load не всегда правильно.</li>
+<li>01:18:08 - Приоритизация трафика и load shedding. Как работать с запросами произвольной сложности. Event sourcing and CQRS.</li>
+<li>01:34:10 - Экзотические техники работы с перегрузками: батчинг, агрегация, сэмплирование.</li>
+</ul>
+
+<hr />
 
 <h1 id="generic-talks-0008-gc-на-серверах-и-трудностях-разработки-с-concurrency">Generic Talks 0008 - GC на серверах и трудностях разработки с concurrency</h1>
 
