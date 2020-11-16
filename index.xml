@@ -18,19 +18,16 @@
       
       <guid>https://generictalks.com/links/</guid>
       <description>Соцсети где можно нас найти:
+ Telegram
  @GenericTalks
  #GenericTalks
- Telegram
- VK
- Facebook
-  Где лоддержать подкаст:
+  Где поддержать подкаст:
  Patreon  Где послушать:
  SoundCloud
  iTunes
  Spotify
  Overcast
  Google Podcasts
- VK
  Яндекс
   Техподдержка:
  Github  </description>
@@ -42,9 +39,7 @@
       <pubDate>Fri, 27 Dec 2019 20:25:48 +0100</pubDate>
       
       <guid>https://generictalks.com/episodes/</guid>
-      <description>Generic Talks 0024 - Архивный Выпуск С Юраном (Yuriy Nasretdinov)  Всем привет, мы на этой неделе не записывались, но приготовили вам сюрприз из нашего архива: офигенный выпуск с Yuriy Nasretdinov.
-Тем временем приходите к нам в bit.ly/3bpP7QL тут можно обсудить выпуски, задать вопросы ведущим и предложить темы для следующих выпусков. Если хотите прийти в гости пишите или оставить анонимный отзыв пишите сюда: @generictalks_bot
-Generic Talks 0023 - В Гостях Александр Разумов И Денис Исаев  Мы поговорили об GolangCI-Lint, WebRTC на Go, а также про новые языки и их адопшен в больших компаниях.</description>
+      <description>Generic Talks S02E08 - Вопросы И Ответы   Обязан ли мейнтейнер проекта с открытым кодом фиксить баги и не просить за это деньги? news.ycombinator.com/item?id=25099862 О структурировании проектов, архитектуре и переусложнении Software engineering vs. config editing &amp;ldquo;Книжный клуб&amp;rdquo; читаем и обсуждаем Titus Winters, Tom Manshreck, and Hyrum Wright / Software Engineering at Google: Lessons Learned from Programming Over Time (2020) CHAPTER 2 and 3 - &amp;ldquo;How to Work Well on Teams&amp;rdquo; and &amp;ldquo;Knowledge sharing&amp;rdquo;  Мы не успели ответить на все ваши вапросы поэтому постараемся обсудить их в одном из следующих выпусков.</description>
     </item>
     
     <item>
@@ -53,13 +48,13 @@ Generic Talks 0023 - В Гостях Александр Разумов И Ден
       <pubDate>Fri, 27 Dec 2019 20:17:24 +0100</pubDate>
       
       <guid>https://generictalks.com/about/</guid>
-      <description>Душевные беседы о программировании с Олегом, Богданом и Искандером.
+      <description>Душевные беседы о программировании с Олегом и Богданом.
 Говорим о коде:
  высоко- и низкоуровневых вещах,
  правильном использовании технологий
  и, конечно, производительности.
   Любим Go и уважаем другие языки.
-   Ведущие Twitter Github     Олег Ковалев @oleg_kovalov @cristaloleg   Богдан Сторожук @BStorozhuk @storozhukBM   Искандер Шарипов @quasilyte @quasilyte    </description>
+   Ведущие Twitter Github     Олег Ковалев @oleg_kovalov @cristaloleg   Богдан Сторожук @BStorozhuk @storozhukBM    </description>
     </item>
     
   </channel>
